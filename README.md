@@ -178,11 +178,12 @@ Calibrate predicted probabilities for better threshold selection and more reliab
 
 ### 🔮 Homepage  
 
-<img src="https://i.ibb.co/XCrtGLf/spam-classifier.png" 
+<img src="screenshot.png" 
      alt="Spam Classifier Homepage" 
-     width="700" 
-     style="border-radius:15px; box-shadow:0 10px 30px rgba(0,0,0,0.2); display:block; margin-left:0;">
+     width="500" 
+     style="border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.15); display:block; margin-left:0;">
 <sub style="color:gray;">Screenshot of the Spam Classifier Streamlit interface</sub>
+
  
 
 ### 🚨 Prediction Example  
@@ -294,6 +295,7 @@ flowchart TD
 Zero Spam. Maximum Inbox Clarity. Always ✨”
 ![GitHub Stars](https://img.shields.io/github/stars/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
+
 
 
 
