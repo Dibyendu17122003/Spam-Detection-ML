@@ -9,7 +9,7 @@
 [![TF-IDF](https://img.shields.io/badge/TF--IDF-blueviolet?style=for-the-badge)]() 
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-FF6F61?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/) 
 [![Seaborn](https://img.shields.io/badge/Seaborn-77ACF1?style=for-the-badge&logo=python&logoColor=white)](https://seaborn.pydata.org/) 
- 
+[![Multinomial Naive Bayes](https://img.shields.io/badge/Multinomial--NB-yellow?style=for-the-badge)]()
 
 
 🔗 **Live Demo App** → [Click Here](https://spam-classifier-ml-app.streamlit.app/) 
@@ -286,6 +286,7 @@ flowchart TD
 Zero Spam. Maximum Inbox Clarity. Always ✨”
 ![GitHub Stars](https://img.shields.io/github/stars/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
+
 
 
 
