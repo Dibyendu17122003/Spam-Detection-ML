@@ -252,23 +252,29 @@ Start the Streamlit app with: streamlit run spam-classification.py / python -m s
 
 
 ---
-## 🧠 Machine Learning Pipeline  
-'''mermaid'''
 flowchart TD
-    A[Raw Messages (Input Data)] --> B[Data Cleaning & Preprocessing]
-    B --> C[Exploratory Data Analysis (EDA)]
-    C --> D[Tokenization]
-    D --> E[Stopword Removal & Stemming]
-    E --> F[TF-IDF Vectorization / Feature Engineering]
-    F --> G[Train-Test Split]
-    G --> H[Model Training]
-    H --> I[Model Improvement & Optimization]
-    I --> J[Cross-Validation & Evaluation Metrics]
-    J --> K[Hyperparameter Tuning (Optional)]
-    K --> L[Save Model & Vectorizer as .pkl]
-    L --> M[Streamlit App Integration]
-    M --> N[Deployment on Streamlit / Render]
-    N --> O[Monitoring & Maintenance]
+    classDef inputStage fill:#6f42c1,stroke:#fff,stroke-width:1px,color:#fff,rx:10,ry:10;
+    classDef preprocessStage fill:#17a2b8,stroke:#fff,stroke-width:1px,color:#fff,rx:10,ry:10;
+    classDef featureStage fill:#ffc107,stroke:#fff,stroke-width:1px,color:#fff,rx:10,ry:10;
+    classDef modelStage fill:#28a745,stroke:#fff,stroke-width:1px,color:#fff,rx:10,ry:10;
+    classDef evaluationStage fill:#fd7e14,stroke:#fff,stroke-width:1px,color:#fff,rx:10,ry:10;
+    classDef deploymentStage fill:#6f42c1,stroke:#fff,stroke-width:1px,color:#fff,rx:10,ry:10;
+
+    A[📥 Raw Messages (Input Data)]:::inputStage --> B[🧹 Data Cleaning & Preprocessing]:::preprocessStage
+    B --> C[🔍 Exploratory Data Analysis (EDA)]:::preprocessStage
+    C --> D[✂️ Tokenization]:::preprocessStage
+    D --> E[📝 Stopword Removal & Stemming]:::preprocessStage
+    E --> F[📊 TF-IDF / Feature Engineering]:::featureStage
+    F --> G[📌 Train-Test Split]:::featureStage
+    G --> H[🤖 Model Training]:::modelStage
+    H --> I[⚡ Model Improvement & Optimization]:::modelStage
+    I --> J[📈 Cross-Validation & Evaluation Metrics]:::evaluationStage
+    J --> K[🛠️ Hyperparameter Tuning (Optional)]:::evaluationStage
+    K --> L[💾 Save Model & Vectorizer (.pkl)]:::modelStage
+    L --> M[🖥️ Streamlit App Integration]:::deploymentStage
+    M --> N[☁️ Deployment on Streamlit / Render]:::deploymentStage
+    N --> O[📡 Monitoring & Maintenance]:::deploymentStage
+
 
 
 ---
@@ -291,6 +297,7 @@ Zero Spam. Maximum Inbox Clarity. Always ✨”
 
 ![GitHub Stars](https://img.shields.io/github/stars/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
+
 
 
 
