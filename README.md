@@ -68,30 +68,76 @@ During experimentation, multiple algorithms were tested before finalizing the be
 - 🧬 **MLP Classifier (Multi-layer Perceptron / Deep Neural Network)**  
 
 > After benchmarking, **Multinomial Naive Bayes** emerged as the most efficient algorithm for spam classification with high accuracy and fast training speed.
-### 6️⃣ Model improvement
-after selecting the model algo i tried to increace the model performenr so i use this following steps
-- Max-Min Scaling / Standardization
-  -->Rescale features to a consistent range or normalize them for better convergence.
-  --> it increases accuracy but decreases precision
-- Adjust TF-IDF Parameters
-  -->Tune max_features, min_df, max_df to select informative words.
-  -->Experiment with n-grams (unigrams, bigrams, trigrams) to capture context. 
-- Feature Engineering Enhancements
-  -->Create new features like message length, special character count, or numeric word frequency.
-  -->Include positional features or capitalization ratio for additional signal.
-- Ensemble & Hybrid Methods
-   -->Combine models using Voting Classifier, Bagging, or Boosting.
-   -->Mix Multinomial Naive Bayes with Random Forest or XGBoost for better results.
-- Hyperparameter Optimization
-   -->Fine-tune parameters using Grid Search, Randomized Search, or Bayesian Optimization.
-   -->Optimize metrics like accuracy, precision, recall, and F1-score.
-- Cross-Validation
-   -->Use k-fold cross-validation to validate the model on multiple splits.
-   -->Ensure the model is robust and avoids overfitting.
-- Regularization Techniques
-   -->Apply L1 / L2 regularization for Logistic Regression or SVM to reduce overfitting.
-- Model Calibration
-   -->Calibrate predicted probabilities for better threshold selection.
+6️⃣ Model Improvement & Optimization
+
+After selecting the model algorithm, several steps were implemented to enhance performance and improve reliability:
+
+<div style="margin-left: 20px;">
+🔹 1. Max-Min Scaling / Standardization
+
+Rescale features to a consistent range or normalize them for better convergence.
+
+Impact: Improves accuracy but may slightly reduce precision.
+
+🔹 2. TF-IDF Parameter Tuning
+
+Adjust max_features, min_df, and max_df to select informative words.
+
+Experiment with n-grams (unigrams, bigrams, trigrams) to capture context.
+
+🔹 3. Feature Engineering Enhancements
+
+Create new features:
+
+Message length
+
+Special character count
+
+Numeric word frequency
+
+Include positional or capitalization ratio features for additional signal.
+
+🔹 4. Ensemble & Hybrid Methods
+
+Combine models using:
+
+Voting Classifier
+
+Bagging
+
+Boosting
+
+Mix Multinomial Naive Bayes with Random Forest or XGBoost for improved results.
+
+🔹 5. Hyperparameter Optimization
+
+Fine-tune parameters using:
+
+Grid Search
+
+Randomized Search
+
+Bayesian Optimization
+
+Optimize multiple metrics:
+
+Accuracy, Precision, Recall, F1-score
+
+🔹 6. Cross-Validation
+
+Implement k-fold cross-validation to validate the model on multiple splits.
+
+Ensures robustness and reduces overfitting.
+
+🔹 7. Regularization Techniques
+
+Apply L1 / L2 regularization for Logistic Regression or SVM to prevent overfitting.
+
+🔹 8. Model Calibration
+
+Calibrate predicted probabilities for better threshold selection and more reliable predictions.
+
+</div>
 
 
 ### 5️⃣ Hyperparameter Tuning  
@@ -234,3 +280,4 @@ flowchart TD
 ## 👨‍💻 Author :--Dibyendu Karmahapatra
 💡 “From raw data to deployment — every step crafted with precision.
 Zero Spam. Maximum Inbox Clarity. Always ✨”
+
