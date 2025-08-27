@@ -1,5 +1,6 @@
 # 📩 Ultra Modern Spam Classifier  
 
+[![Live App](https://img.shields.io/badge/%F0%9F%9A%80%20Live%20App-Streamlit-brightgreen?style=for-the-badge&logo=streamlit&logoColor=white)](https://spam-classifier-ml-app.streamlit.app/) 
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) 
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/) 
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/) 
@@ -287,6 +288,7 @@ flowchart TD
 Zero Spam. Maximum Inbox Clarity. Always ✨”
 ![GitHub Stars](https://img.shields.io/github/stars/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
+
 
 
 
