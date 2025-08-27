@@ -275,8 +275,11 @@ flowchart TD
 
 ## 📊 Future Improvements
  1.🔮 Add deep learning models (RNN, LSTM, Transformers)
+ 
  2.📬 Extend to multilingual spam detection
+ 
  3.📱 Build a mobile-ready interface
+ 
  4.📊 Deploy as a REST API service
 
 ---
@@ -288,6 +291,7 @@ Zero Spam. Maximum Inbox Clarity. Always ✨”
 
 ![GitHub Stars](https://img.shields.io/github/stars/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
+
 
 
 
