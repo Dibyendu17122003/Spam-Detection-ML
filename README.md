@@ -200,16 +200,43 @@ Calibrate predicted probabilities for better threshold selection and more reliab
 
 ---
 
-## 📂 Project Structure  
-📩 Spam-Classifier/
-│── spam-classification.py # Streamlit app for deployment and frontend
-│── model.pkl # Trained ML model (Multinomial NB)
-│── CountVectorizer.pkl # Saved TF-IDF vectorizer
-|── spam-classifier.ipynb # jupyter notebook for total training portion
-│── spam.csv # Training dataset
-│── requirements.txt # Dependencies
-│── README.md # Documentation
-│── nltk_data/ # NLTK resources for cloud deployment
+## 📂 Project Structure
+
+<div style="display:flex; flex-direction:column; gap:12px; margin-top:10px;">
+
+<div style="background: linear-gradient(135deg, #6f42c1, #a855f7); color:white; padding:12px 18px; border-radius:12px; box-shadow: 2px 6px 15px rgba(0,0,0,0.2);">
+📩 <strong>spam-classification.py</strong> <br> <sub>Streamlit app for frontend & deployment</sub>
+</div>
+
+<div style="background: linear-gradient(135deg, #28a745, #71f584); color:white; padding:12px 18px; border-radius:12px; box-shadow: 2px 6px 15px rgba(0,0,0,0.2);">
+💾 <strong>model.pkl</strong> <br> <sub>Trained Multinomial Naive Bayes model</sub>
+</div>
+
+<div style="background: linear-gradient(135deg, #17a2b8, #66d9ef); color:white; padding:12px 18px; border-radius:12px; box-shadow: 2px 6px 15px rgba(0,0,0,0.2);">
+📄 <strong>CountVectorizer.pkl</strong> <br> <sub>Saved TF-IDF / Bag-of-Words vectorizer</sub>
+</div>
+
+<div style="background: linear-gradient(135deg, #ffc107, #ffec7f); color:white; padding:12px 18px; border-radius:12px; box-shadow: 2px 6px 15px rgba(0,0,0,0.2);">
+📓 <strong>spam-classifier.ipynb</strong> <br> <sub>Jupyter Notebook for full training pipeline</sub>
+</div>
+
+<div style="background: linear-gradient(135deg, #fd7e14, #ffb84d); color:white; padding:12px 18px; border-radius:12px; box-shadow: 2px 6px 15px rgba(0,0,0,0.2);">
+🗂️ <strong>spam.csv</strong> <br> <sub>Dataset for training</sub>
+</div>
+
+<div style="background: linear-gradient(135deg, #6c757d, #adb5bd); color:white; padding:12px 18px; border-radius:12px; box-shadow: 2px 6px 15px rgba(0,0,0,0.2);">
+📄 <strong>requirements.txt</strong> <br> <sub>Project dependencies</sub>
+</div>
+
+<div style="background: linear-gradient(135deg, #6f42c1, #d6a4f7); color:white; padding:12px 18px; border-radius:12px; box-shadow: 2px 6px 15px rgba(0,0,0,0.2);">
+📄 <strong>README.md</strong> <br> <sub>Project documentation</sub>
+</div>
+
+<div style="background: linear-gradient(135deg, #0d6efd, #66b2ff); color:white; padding:12px 18px; border-radius:12px; box-shadow: 2px 6px 15px rgba(0,0,0,0.2);">
+📁 <strong>nltk_data/</strong> <br> <sub>NLTK resources for cloud deployment</sub>
+</div>
+
+</div>
 
 ---
 
@@ -297,6 +324,7 @@ Zero Spam. Maximum Inbox Clarity. Always ✨”
 
 ![GitHub Stars](https://img.shields.io/github/stars/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
+
 
 
 
