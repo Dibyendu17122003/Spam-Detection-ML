@@ -1,10 +1,18 @@
 # 📩 Ultra Modern Spam Classifier  
 
-[![Streamlit App](https://img.shields.io/badge/🚀%20Live%20App-Streamlit-brightgreen?style=for-the-badge)](https://spam-classifier-ml-app.streamlit.app/)  
-[![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)](https://www.python.org/)  
-[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit%20Learn-orange?style=for-the-badge&logo=scikit-learn)](https://scikit-learn.org/)  
-[![NLP](https://img.shields.io/badge/NLP-TF--IDF%20%7C%20NLTK-purple?style=for-the-badge&logo=nlp)](https://www.nltk.org/)  
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)  
+[![Live App](https://img.shields.io/badge/%F0%9F%9A%80%20Live%20App-Streamlit-brightgreen?style=for-the-badge&logo=streamlit&logoColor=white)](https://spam-classifier-ml-app.streamlit.app/) 
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) 
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/) 
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/) 
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/) 
+[![NLTK](https://img.shields.io/badge/NLTK-purple?style=for-the-badge&logo=nltk&logoColor=white)](https://www.nltk.org/) 
+[![TF-IDF](https://img.shields.io/badge/TF--IDF-blueviolet?style=for-the-badge)]() 
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-FF6F61?style=for-the-badge&logo=matplotlib&logoColor=white)](https://matplotlib.org/) 
+[![Seaborn](https://img.shields.io/badge/Seaborn-77ACF1?style=for-the-badge&logo=python&logoColor=white)](https://seaborn.pydata.org/) 
+[![GitHub Stars](https://img.shields.io/github/stars/dibyendu17122003/MOVIE-RECOMENDATION-SYATEM-ML?style=social)](https://github.com/dibyendu17122003/MOVIE-RECOMENDATION-SYATEM-ML/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/dibyendu17122003/MOVIE-RECOMENDATION-SYATEM-ML?style=social)](https://github.com/dibyendu17122003/MOVIE-RECOMENDATION-SYATEM-ML/network/members)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=github&logoColor=white)](LICENSE)
+ 
 
 
 🔗 **Live Demo App** → [Click Here](https://spam-classifier-ml-app.streamlit.app/) 
@@ -281,5 +289,6 @@ flowchart TD
 ## 👨‍💻 Author :--Dibyendu Karmahapatra
 💡 “From raw data to deployment — every step crafted with precision.
 Zero Spam. Maximum Inbox Clarity. Always ✨”
+
 
 
