@@ -54,25 +54,31 @@ This project covers **everything from raw data to deployment**:
 - Converts text into a sparse numerical representation  
 
 ### 4️⃣ Model Training & Comparison  
-->> 🔥 Machine Learning Algorithms Explored  
+## ->> 🔥 Machine Learning Algorithms Explored
 
-During experimentation, multiple algorithms were tested before finalizing the best-performing model.  
-- ✅ **Multinomial Naive Bayes** (Chosen Model)  
-- 🌲 **Random Forest Classifier**  
-- 📈 **Logistic Regression**  
-- 📊 **Support Vector Machine (SVM)**  
-- 🔍 **K-Nearest Neighbors (KNN)**  
-- 🧠 **Decision Tree Classifier**  
-- ⚡ **XGBoost Classifier**  
-- 🚀 **LightGBM Classifier**  
-- 🔮 **Gradient Boosting Classifier**  
-- 🎯 **AdaBoost Classifier**  
-- 🔗 **Extra Trees Classifier**  
-- 🌀 **Stochastic Gradient Descent (SGD) Classifier**  
-- 🤖 **Perceptron (Single-layer Neural Network)**  
-- 🧬 **MLP Classifier (Multi-layer Perceptron / Deep Neural Network)**  
+During experimentation, multiple algorithms were benchmarked before finalizing the best-performing model:
 
-> After benchmarking, **Multinomial Naive Bayes** emerged as the most efficient algorithm for spam classification with high accuracy and fast training speed.
+<div style="display:flex; flex-wrap: wrap; gap:10px;">
+
+<span style="background:#6f42c1; color:white; padding:8px 12px; border-radius:12px;">✅ Multinomial Naive Bayes (Chosen)</span>
+<span style="background:#28a745; color:white; padding:8px 12px; border-radius:12px;">🌲 Random Forest Classifier</span>
+<span style="background:#0d6efd; color:white; padding:8px 12px; border-radius:12px;">📈 Logistic Regression</span>
+<span style="background:#fd7e14; color:white; padding:8px 12px; border-radius:12px;">📊 Support Vector Machine (SVM)</span>
+<span style="background:#198754; color:white; padding:8px 12px; border-radius:12px;">🔍 K-Nearest Neighbors (KNN)</span>
+<span style="background:#6610f2; color:white; padding:8px 12px; border-radius:12px;">🧠 Decision Tree Classifier</span>
+<span style="background:#f03e3e; color:white; padding:8px 12px; border-radius:12px;">⚡ XGBoost Classifier</span>
+<span style="background:#20c997; color:white; padding:8px 12px; border-radius:12px;">🚀 LightGBM Classifier</span>
+<span style="background:#fd7e14; color:white; padding:8px 12px; border-radius:12px;">🔮 Gradient Boosting Classifier</span>
+<span style="background:#6c757d; color:white; padding:8px 12px; border-radius:12px;">🎯 AdaBoost Classifier</span>
+<span style="background:#0dcaf0; color:white; padding:8px 12px; border-radius:12px;">🔗 Extra Trees Classifier</span>
+<span style="background:#ffc107; color:white; padding:8px 12px; border-radius:12px;">🌀 SGD Classifier</span>
+<span style="background:#6610f2; color:white; padding:8px 12px; border-radius:12px;">🤖 Perceptron</span>
+<span style="background:#f03e3e; color:white; padding:8px 12px; border-radius:12px;">🧬 MLP Classifier (Deep NN)</span>
+
+</div>
+
+> **Note:** After benchmarking, **Multinomial Naive Bayes** was selected as the optimal model for spam classification due to its **high accuracy, speed, and efficiency**.
+
 
 6️⃣ Model Improvement & Optimization
 
@@ -301,6 +307,7 @@ Zero Spam. Maximum Inbox Clarity. Always ✨”
 
 ![GitHub Stars](https://img.shields.io/github/stars/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
+
 
 
 
