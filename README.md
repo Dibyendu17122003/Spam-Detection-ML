@@ -37,22 +37,51 @@ This project covers **everything from raw data to deployment**:
 🚀 With **98% accuracy** and **1.00 (100%) precision**, this app ensures that *zero spam slips through*.  
 ---
 
-## 🚀 Applications of SMS/Email Spam Classifier
+## 🚀 Applications of SMS/Email Spam Classifier  
 
-| 🎬 Email Filtering | 📱 SMS Spam Detection | 🔒 Cybersecurity |
-|-------------------|--------------------|----------------|
-| Automatically detects and moves **spam emails** to the junk folder. <br> ![Email Filter](https://img.shields.io/badge/Email-Filter-blue) | Prevents users from receiving **fraudulent or unwanted messages**. <br> ![SMS Filter](https://img.shields.io/badge/SMS-Filter-success) | Blocks **phishing attempts** & malicious links in emails and SMS. <br> ![Security](https://img.shields.io/badge/Security-critical-red) |
-
-| 🏢 Enterprise Email Management | 🛡️ Fraud Detection | 📊 Data Analytics |
-|-------------------------------|-----------------|----------------|
-| Helps **companies** reduce spam in internal & external communications. <br> ![Enterprise](https://img.shields.io/badge/Enterprise-orange) | Identifies **scam or phishing messages** before users interact. <br> ![Fraud](https://img.shields.io/badge/Fraud-Detect-important) | Analyzes message patterns to improve **ML models** and user safety. <br> ![Analytics](https://img.shields.io/badge/Analytics-informational) |
-
-| 🤖 AI Integration |
-|-----------------|
-| Integrates with **chatbots, virtual assistants**, and email clients for intelligent filtering. <br> ![AI](https://img.shields.io/badge/AI-Enabled-lightgrey) |
-
-
-
+<table>
+  <tr>
+    <td align="center" width="33%" style="background: #1f1f2e; border-radius: 12px; padding: 15px;">
+      <h3 style="color:#8cf3f3;">📧 Email Filtering</h3>
+      <p style="color:#dcdcdc;">Automatically detects and moves <b>spam emails</b> to the junk folder.</p>
+      <img src="https://img.shields.io/badge/Email-Filter-blue" alt="Email Filter Badge">
+    </td>
+    <td align="center" width="33%" style="background: #1f1f2e; border-radius: 12px; padding: 15px;">
+      <h3 style="color:#f3d38c;">📱 SMS Spam Detection</h3>
+      <p style="color:#dcdcdc;">Prevents users from receiving <b>fraudulent or unwanted messages</b>.</p>
+      <img src="https://img.shields.io/badge/SMS-Filter-success" alt="SMS Filter Badge">
+    </td>
+    <td align="center" width="33%" style="background: #1f1f2e; border-radius: 12px; padding: 15px;">
+      <h3 style="color:#f38cba;">🔒 Cybersecurity</h3>
+      <p style="color:#dcdcdc;">Blocks <b>phishing attempts</b> & malicious links in emails and SMS.</p>
+      <img src="https://img.shields.io/badge/Security-critical-red" alt="Security Badge">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%" style="background: #1f1f2e; border-radius: 12px; padding: 15px;">
+      <h3 style="color:#8cf38c;">🏢 Enterprise Email Management</h3>
+      <p style="color:#dcdcdc;">Helps <b>companies</b> reduce spam in internal & external communications.</p>
+      <img src="https://img.shields.io/badge/Enterprise-orange" alt="Enterprise Badge">
+    </td>
+    <td align="center" width="33%" style="background: #1f1f2e; border-radius: 12px; padding: 15px;">
+      <h3 style="color:#f3a18c;">🛡️ Fraud Detection</h3>
+      <p style="color:#dcdcdc;">Identifies <b>scam or phishing messages</b> before users interact.</p>
+      <img src="https://img.shields.io/badge/Fraud-Detect-important" alt="Fraud Badge">
+    </td>
+    <td align="center" width="33%" style="background: #1f1f2e; border-radius: 12px; padding: 15px;">
+      <h3 style="color:#8cc3f3;">📊 Data Analytics</h3>
+      <p style="color:#dcdcdc;">Analyzes message patterns to improve <b>ML models</b> and user safety.</p>
+      <img src="https://img.shields.io/badge/Analytics-informational" alt="Analytics Badge">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="3" style="background: #1f1f2e; border-radius: 12px; padding: 15px;">
+      <h3 style="color:#d3f38c;">🤖 AI Integration</h3>
+      <p style="color:#dcdcdc;">Integrates with <b>chatbots, virtual assistants</b>, and email clients for intelligent filtering.</p>
+      <img src="https://img.shields.io/badge/AI-Enabled-lightgrey" alt="AI Badge">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -326,6 +355,7 @@ Zero Spam. Maximum Inbox Clarity. Always ✨”
 
 ![GitHub Stars](https://img.shields.io/github/stars/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/dibyendu17122003/MOVIE-RECOMENDATION-SYSTEM-ML?style=social)
+
 
 
 
